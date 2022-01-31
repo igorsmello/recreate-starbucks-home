@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starbucks Coffee Company - Fã Site</title>
+
+    <!-- METATAGS e SEO -->
+    
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="img/favicon/site.webmanifest">
+    <link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- CSS -->
+    <!--Font Montserrat-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https: //fonts.googleapis.com/css2? family= Montserrat:wght@400;500;600;700 & display=swap" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- Bootstrap 2 -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Style.css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Navegação -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a href="index.html">
+                <img class="logo-endress" id="logo-starbucks" src="img/svg/Starbucks Logo.svg">
+            </a>
+            <!-- Menu Hamburger -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="#navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Menu -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav nav-list-mobile me-auto mb-2 mb-lg-0">
+                    <div class="gradient-menu-mobile">
+                    </div>
+                    <li class="nav-item menu-options list-right-logo">
+                    <a class="nav-link active" aria-current="page" href="#">Menu</a>
+                    </li>
+                    <li class="nav-item menu-options list-right-logo">
+                    <a class="nav-link" href="#">Rewards</a>
+                    </li>
+                    <li class="nav-item menu-options list-right-logo">
+                        <a class="nav-link" href="#">Nosso café</a>
+                    </li>
+                    <li class="nav-item menu-options list-right-logo">
+                        <a class="nav-link" href="#">Impacto social</a>
+                    </li>
+                </ul>
+                <div>
+                    <hr class="divider-menu">
+                </div>
+                <ul class="navbar-nav list-group-navigation nav-list-secondary nav-list-mobile-buttons">
+                    <li class="nav-item list-group svg-items history-svg">
+                        <a href="#"><img id="img-history-starbucks" src="img/svg/Logo Histórias Starbucks.svg"></a>
+                    </li>
+                    <li class="nav-item list-group svg-items location-svg">
+                        <a class="link-location-starbucks" href="#"><img id="img-location-starbucks" src="img/svg/location-svgexport-1.svg">
+                        <span class="location-forstarbucks">Encontre uma loja</span></a>
+                    </li>
+                    <li class="nav-item list-buttons-group">
+                        <button class="btn-login-stb">Entrar</button>
+                    </li>
+                    <li class="nav-item list-buttons-group">
+                        <button class="btn-participe-stb">Participar agora</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main/Carousel -->
+    <main class="carousel-top">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                    <source media="(min-width: 775px)" srcset="img/banner_2437495195_desktop.jpg">
+                    <source media="(max-width: 774px)" srcset="img/banner_2437495195_mobile.jpg">
+                <a href="#">
+                    <picture>
+                        <source media="(min-width: 775px)" srcset="img/banner_2437495195_desktop.jpg">
+                        <source media="(max-width: 774px)" srcset="img/banner_2437495195_mobile.jpg">
+
+                        <img src="img/banner_2437495195_desktop.jpg" class="d-block w-100" alt="Starbucks Rewards">
+                    </picture>
+                </a>
+              </div>
+              <div class="carousel-item">
+                <a href="#">
+                    <picture>
+                        <source media="(min-width: 775px)" srcset="img/banner_1238893150_desktop.jpg">
+                        <source media="(max-width: 774px)" srcset="img/banner_1238893150_mobile.jpg">
+
+                        <img src="img/banner_1238893150_desktop.jpg" class="d-block w-100" alt="Novidades do Verão">
+                    </picture>
+                </a>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </main>
+
+    <!-- Aviso -->
+    <div class="container-fluid avise-top">
+        <div class="row">
+            <div class="col-12">
+                <div class="info-aviso container-fluid">
+                    <p>
+                        Conforme abrimos nossas lojas, permanecemos no compromisso com a saúde e bem-estar de nossos partners e consumidores.
+                    </p>
+                </div>
+
+                <div class="btn-info-aviso">
+                    <button class="more-info">
+                        <a href="#">
+                            Saiba mais
+                        </a>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sessões -->
+    <!-- Primeira sessão -->
+    <div class="container-fluid section-initial">
+        <div class="row">               
+            <div class="col-sm-12 col-md-6 col-lg-6 img-section-we-come-back m-0">
+                <img class="img-fluid" src="img/sb-dia-do-fotografo.jpg" alt="">
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6 section-we-come-back m-0">
+                <h2 class="section-we-come-back">
+                    Voltando ao que amamos juntos
+                </h2>
+                <p class="section-we-come-back">
+                    Queridos clientes, partners e amigos, estamos acompanhando a situação atual do Brasil em relação ao COVID-19, focados na segurança e bem estar dos nossos partners (como chamamos os nossos colaboradores) e clientes. Seguimos os critérios de quarentena de cada munícipo que temos lojas. As lojas abertas ou com entrega via delivery, através do nosso parceiro Rappi, estão seguindo as orientações das autoridades de saúde.
+                </p>
+                <div class="btn-section-we-come-back">
+                    <button class="button-we-come-back">
+                        <a href="#">
+                            Baixe nosso App e verifique as lojas em funcionamento
+                        </a>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Segunda sessão -->
+    <div class="container-fluid section-secondary">
+        <div id="group-taste" class="row">
+            <div class="col-sm-12 col-md-6 col-lg-6 section-info-taste group-info-taste m-0">
+                <h2 class="section-info-taste">
+                    Saboreie uma pausa
+                </h2>
+                <p class="section-info-taste">
+                    Saboreie uma pausa com uma de nossas bebidas
+                </p>
+                <div class="btn-section-info-taste">
+                    <button class="button-taste">
+                        <a href="#">
+                            Saiba mais
+                        </a>
+                    </button>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6 img-section-info-taste">
+                <img class="img-fluid" src="img/featured-drinks.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <!-- Terceira sessão -->
+    <div class="container-fluid section-tertiary">
+        <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-6 img-section-esperance">
+                <img class="img-fluid" src="img/donate.jpg" alt="">
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6 section-esperance group-info-esperance m-0">
+                <h2 class="section-esperance">
+                    Esperança e união
+                </h2>
+                <p class="section-esperance">
+                    Em parceria com ONGs, Partners da Starbucks se mobilizam para entregar café às comunidades.
+                </p>
+                <div class="btn-section-esperance">
+                    <button class="button-esperance">
+                        <a href="#">
+                            Saiba mais
+                        </a>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Quarta sessão -->
+    <div class="containerf-luid section-quaternary">
+        <div id="group-quarantine" class="row">
+            <div class="col-sm-12 col-md-6 col-lg-6 section-quarantine group-info-quarantine m-0">
+                <h2 class="section-quarantine">
+                    Coisas boas estão acontecendo
+                </h2>
+                <p class="section-quarantine">
+                    Um gesto de carinho àqueles que estão na linha de frente todos os dias.
+                </p>
+                <div class="btn-section-quarantine">
+                    <button class="button-quarantine">
+                        <a href="#">
+                            Saiba mais
+                        </a>
+                    </button>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6 img-section-quarantine">
+                <img class="img-fluid" src="img/partners.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <!-- Rodapé - Footer -->
+    <footer class="stb-footer footer-desktop">
+        <!-- Footer desktop -->
+        <div class="container-fluid rodape-infos">
+            <div class="row text-center text-md-left group-footer">
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-3 mt-3 stb-footer-col col-one">
+                    <h3 class="stb-footer-head">
+                        Sobre nós
+                    </h3>
+                    <ul>
+                        <li>
+                            <a href="#">Nossa empresa</a>
+                        </li>
+                        <li>
+                            <a href="#">Nosso café</a>
+                        </li>
+                        <li>
+                            <a href="#">Atendimento ao cliente</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-3 mt-3 stb-footer-col col-two">
+                    <h3 class="stb-footer-head">
+                        Carreira
+                    </h3>
+                    <ul>
+                        <li>
+                            <a href="#">Central de carreiras</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-3 mt-3 stb-footer-col col-three">
+                    <h3 class="stb-footer-head">
+                        Impacto Social
+                    </h3>
+                    <ul>
+                        <li>
+                            <a href="#">Comunidade</a>
+                        </li>
+                        <li>
+                            <a href="#">Meio ambiente</a>
+                        </li>
+                        <li>
+                            <a href="#">Fornecimento ético</a>
+                        </li>
+                        <li>
+                            <a href="#">Histórias Starbucks</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4 col-lg-4 col-xl-4 mx-3 mt-3 stb-footer-col col-four">
+                    <h3 class="stb-footer-head">
+                        Starbucks Rewards
+                    </h3>
+                    <ul>
+                        <li>
+                            <a href="#">Baixa o aplicativo</a>
+                        </li>
+                        <li>
+                            <a href="#">Termos & Condições do Starbucks Card</a>
+                        </li>
+                        <li>
+                            <a href="#">Termos & Condições do Starbucks Rewards</a>
+                        </li>
+                        <li>
+                            <a href="#">Termos & Condições de Promoções Starbucks</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-1 col-lg-1 col-xl-1 mx-3 mt-3 stb-footer-col col-five">
+                    <div class="btn-footer-history">
+                        <a href="" target="_blank">
+                            <img class="img-fluid" src="img/svg/Logo Histórias Starbucks.svg" alt="Histórias do Starbucks">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <hr class="divider-footer">
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="stb-footer-col-socials">
+                    <ul class="footer-group-socials">
+                        <li id="spotify">
+                            <a target="_blank" href="#">
+                                <img src="img/svg/socials/Spotify Logo.svg" alt="Spotify Logo">
+                            </a>
+                        </li>
+                        <li id="facebook">
+                            <a target="_blank" href="#">
+                                <img src="img/svg/socials/Facebook Logo.svg" alt="Facebook Logo">
+                            </a>
+                        </li>
+                        <li id="linkedin">
+                            <a target="_blank" href="#">
+                                <img src="img/svg/socials/Linkedin Logo.svg" alt="Linkedin Logo">
+                            </a>
+                        </li>
+                        <li id="instagram">
+                            <a target="_blank" href="#">
+                                <img src="img/svg/socials/Instagram Logo.svg" alt="Instagram Logo">
+                            </a>
+                        </li>
+                        <li id="youtube">
+                            <a target="_blank" href="#">
+                                <img src="img/svg/socials/YouTube Logo.svg" alt="Youtube Logo">
+                            </a>
+                        </li>
+                        <li id="twitter">
+                            <a target="_blank" href="#">
+                                <img src="img/svg/socials/Twitter Logo.svg" alt="Twitter Logo">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="stb-footer-politics">
+                    <ul class="group-stb-politics">
+                        <li>
+                            <a href="#">
+                                Política de privacidade
+                            </a> 
+                        </li>
+                        <li class="politics-border">
+                            <a href="#">
+                                Política de troca de produto
+                            </a>
+                        </li>
+                        <li class="politics-border">
+                            <a href="#">
+                                Termos de uso
+                            </a>
+                        </li>
+                        <li class="politics-border">
+                            <a href="#">
+                                Política de Cookies
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row directs">
+                <p class="stb-footer-copyright">
+                    © 2022 Starbucks Coffee Company. Todos os direitos reservados.
+                </p>
+                <p class="author-reserve">
+                    Este é um fã site criado por <a class="website" href="https://igorsmello.github.io/website/">Igor Mello</a> inspirado no site starbucks.com.br
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Rodapé Mobile - Footer Mobile -->
+    <footer class="stb-footer footer-mobile">
+        <div class="container-fluid footer-stb-mobile">
+            <!-- Sobre nós -->
+            <div class="stb-footer-mobile-col">
+                <a class="btn-toggle nav-link menu-footer" href="#" data-element=".stb-dropdown-item-one" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Sobre nós
+                <img class="arrow-more" src="img/svg/angle-arrow-down_icon-icons.com_73683.svg">
+                </a>
+                <ul class="stb-dropdown-menu">
+                    <li class="stb-dropdown-item-one">
+                        <a href="#">
+                            Nossa empresa
+                        </a>
+                    </li>
+                    <li class="stb-dropdown-item-one">
+                        <a href="#">
+                            Nosso café
+                        </a>
+                    </li>
+                    <li class="stb-dropdown-item-one">
+                        <a href="#">
+                            Atendimento ao cliente
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- Carreira -->
+            <div class="stb-footer-mobile-col">
+                <a class="btn-toggle nav-link menu-footer" href="#" data-element=".stb-dropdown-item-two" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Carreira
+                    <img class="arrow-more" src="img/svg/angle-arrow-down_icon-icons.com_73683.svg">
+                </a>
+                <ul class="stb-dropdown-menu">
+                    <li class="stb-dropdown-item-two">
+                        <a href="#">
+                            Central de carreiras
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- Impacto Social -->
+            <div class="stb-footer-mobile-col">
+                <a class="btn-toggle nav-link menu-footer" href="#" data-element=".stb-dropdown-item-three" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Impacto Social
+                    <img class="arrow-more" src="img/svg/angle-arrow-down_icon-icons.com_73683.svg">
+                </a>
+                <ul class="stb-dropdown-menu">
+                    <li class="stb-dropdown-item-three">
+                        <a href="#">
+                            Comunidade
+                        </a>
+                    </li>
+                    <li class="stb-dropdown-item-three"> 
+                        <a href="#">
+                            Meio Ambiente
+                        </a>
+                    </li>
+                    <li class="stb-dropdown-item-three">
+                        <a href="#">
+                            Fornecimento ético
+                        </a>
+                    </li>
+                    <li class="stb-dropdown-item-three">
+                        <a href="#">
+                            Histórias
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- Starbucks Rewards -->
+            <div class="stb-footer-mobile-col">
+                <a class="btn-toggle nav-link menu-footer" href="#" data-element=".stb-dropdown-item-four" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Starbucks Rewards
+                    <img class="arrow-more" src="img/svg/angle-arrow-down_icon-icons.com_73683.svg">
+                </a>
+                <ul class="stb-dropdown-menu">
+                    <li class="stb-dropdown-item-four">
+                        <a href="#">
+                            Baixe o aplicativo
+                        </a>
+                    </li>
+                    <li class="stb-dropdown-item-four">
+                        <a href="#">
+                            Termos & Condições do Starbucks Card
+                        </a>
+                    </li>
+                    <li class="stb-dropdown-item-four">
+                        <a href="#">
+                            Termos & Condições do Starbucks Rewards
+                        </a>
+                    </li>
+                    <li class="stb-dropdown-item-four">
+                        <a href="#">
+                            Termos & Condições de Promoções Starbucks
+                        </a>
+                    </li>
+                </ul>
+                <li>
+                    <div class="container-fluid stb-history-svg-mobile">
+                        <a href="#"><img class="img-fluid" src="img/svg/Logo Histórias Starbucks.svg"></a>
+                    </div>
+                </li>
+            </div>
+        </div>
+
+        <hr class="divider-footer-mobile">
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="stb-footer-col-socials">
+                    <ul class="footer-group-socials">
+                        <li id="spotify">
+                            <a target="_blank" href="#">
+                                <img src="img/svg/socials/Spotify Logo.svg" alt="Spotify Logo">
+                            </a>
+                        </li>
+                        <li id="facebook">
+                            <a target="_blank" href="#">
+                                <img src="img/svg/socials/Facebook Logo.svg" alt="Facebook Logo">
+                            </a>
+                        </li>
+                        <li id="linkedin">
+                            <a target="_blank" href="#">
+                                <img src="img/svg/socials/Linkedin Logo.svg" alt="Linkedin Logo">
+                            </a>
+                        </li>
+                        <li id="instagram">
+                            <a target="_blank" href="#">
+                                <img src="img/svg/socials/Instagram Logo.svg" alt="Instagram Logo">
+                            </a>
+                        </li>
+                        <li id="youtube">
+                            <a target="_blank" href="#">
+                                <img src="img/svg/socials/YouTube Logo.svg" alt="Youtube Logo">
+                            </a>
+                        </li>
+                        <li id="twitter">
+                            <a target="_blank" href="#">
+                                <img src="img/svg/socials/Twitter Logo.svg" alt="Twitter Logo">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="stb-footer-politics">
+                    <ul class="group-stb-politics">
+                        <li>
+                            <a href="#">
+                                Política de privacidade
+                            </a> 
+                        </li>
+                        <li class="politics-border">
+                            <a href="#">
+                                Política de troca de produto
+                            </a>
+                        </li>
+                        <li class="politics-border">
+                            <a href="#">
+                                Termos de uso
+                            </a>
+                        </li>
+                        <li class="politics-border">
+                            <a href="#">
+                                Política de Cookies
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row directs">
+                <p class="stb-footer-copyright">
+                    © 2022 Starbucks Coffee Company. Todos os direitos reservados.
+                </p>
+                <p class="author-reserve">
+                    Este é um fã site criado por <a class="website" href="https://igorsmello.github.io/website/">Igor Mello</a> inspirado na home do site starbucks.com.br
+                </p>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <!-- Scripts -->
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!-- Mobile-navbar.js -->
+    <script src="js/mobile-navbar.js"></script>
+    <!-- Scripts.js -->
+    <script src="js/scripts.js"></script>
+</body>
+</html>
