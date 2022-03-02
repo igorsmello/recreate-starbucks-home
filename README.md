@@ -27,7 +27,7 @@
 <h6 align="center">
      <img src="/img-readme/Animação.gif" style="width: 600px; height: 220px; align-items: center; justify-content: center; margin: auto; display: block;">
 </h6>
-<h5 align="center">Veja ele completo clicando <a target="_blank" href="https://recreate-starbucks.netlify.app/">aqui</a></h5><br><br><br><br><br><br><br><br><br><br><br><br>
+<h5 align="center">Veja ele completo clicando <a target=“_blank” href="https://recreate-starbucks.netlify.app/">aqui</a></h5><br><br><br><br><br><br><br><br><br><br><br><br>
 
     
 
