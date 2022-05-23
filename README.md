@@ -16,7 +16,7 @@
         <a href="#autor">Autor</a> 
 </p>
 
-<h4 align="center">🚧 Projeto ainda não finalizado 👷‍♂️</h4><br><br><br><br><br><br><br><br><br><br><br><br>
+<h4 align="center">✔️ Projeto finalizado! ✔️</h4><br><br><br><br><br><br><br><br><br><br><br><br>
 
 <h5 align="center">Site oficial:</h5>
 <h6 align="center">
