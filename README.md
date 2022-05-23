@@ -1,5 +1,3 @@
-# README
-
 <h1 align="center">Starbucks Home</h1>
 </h2>
 
